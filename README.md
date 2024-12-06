@@ -1,16 +1,4 @@
 # weightrack
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- App which lets you track your weight on a daily basis. Sending notifications locally on a time selected by you and on the days you miss entries it will show you missed.
+- Used sqflite for database.
+- Integrated flutter local notifications which reminds user to add weight without missing and handled international timezones with timezone package.
